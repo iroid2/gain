@@ -1,0 +1,13 @@
+.about{
+    text-align: center;
+    padding: 1rem 3rem;
+    .about-btns{
+        gap: 2rem;
+        button{
+            background-color: black;
+        }
+        .green-btn{
+            background-color: #096247;
+        }
+    }
+}

@@ -75,6 +75,19 @@ h1 {
   padding: 1rem 2rem;
 }
 
+.title-h1 {
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 0.8rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.or-title {
+  color: rgb(254, 158, 13);
+}
+
 .hero {
   background: url(./assets/h1-bg01.png);
   background-size: cover;
@@ -201,6 +214,20 @@ h1 {
   margin-top: 2rem;
   color: white;
   background-color: black;
+}
+
+.about {
+  text-align: center;
+  padding: 1rem 3rem;
+}
+.about .about-btns {
+  gap: 2rem;
+}
+.about .about-btns button {
+  background-color: black;
+}
+.about .about-btns .green-btn {
+  background-color: #096247;
 }
 
 body {
