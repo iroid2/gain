@@ -1,8 +1,16 @@
 .about{
     text-align: center;
     padding: 1rem 3rem;
+    margin-top: 1rem .5rem;
+    @media(max-width: 768px){
+        padding: .2rem .2rem;
+    }
+    p{
+        margin-top: 2rem;
+    }
     .about-btns{
         gap: 2rem;
+        margin-top: 1rem;
         button{
             background-color: black;
         }

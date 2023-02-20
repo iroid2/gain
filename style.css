@@ -219,9 +219,19 @@ h1 {
 .about {
   text-align: center;
   padding: 1rem 3rem;
+  margin-top: 1rem 0.5rem;
+}
+@media (max-width: 768px) {
+  .about {
+    padding: 0.2rem 0.2rem;
+  }
+}
+.about p {
+  margin-top: 2rem;
 }
 .about .about-btns {
   gap: 2rem;
+  margin-top: 1rem;
 }
 .about .about-btns button {
   background-color: black;
