@@ -11,11 +11,18 @@
     .about-btns{
         gap: 2rem;
         margin-top: 1rem;
+        // @media(max-width: 768px){
+        //     gap: 1rem;
+        // }
         button{
             background-color: black;
+            &:hover{
+                background-color: rgb(255,159,13);
+            }
         }
         .green-btn{
             background-color: #096247;
+            
         }
     }
 }

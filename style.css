@@ -236,6 +236,9 @@ h1 {
 .about .about-btns button {
   background-color: black;
 }
+.about .about-btns button:hover {
+  background-color: rgb(255, 159, 13);
+}
 .about .about-btns .green-btn {
   background-color: #096247;
 }
