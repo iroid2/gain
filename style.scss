@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import"./global";
+@import"./hero";
+@import"./program";
+body{
+    width: 100vw;
+    font-family:$font-fam-robot ;
+    .nav-bar{
+        width: 100%;
+        padding: 1.3rem 2rem;
+        @media(max-width: 768px){
+            padding: 1rem .1rem;
+            width: 100%;
+        }
+        // background-color: red;
+        .logo{
+            width: 20%;
+            @media(max-width: 768px){
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+            }
+            img{
+                width: 66%;
+                @media(max-width: 768px){
+                    width: 40%;
+                }
+            }
+            i{
+                font-size: 2.5rem;
+                display: none;
+                @media(max-width: 768px){
+                    display: block;
+                    color: rgb(85, 84, 84);
+
+                }
+            }
+        }
+        .nav-list{
+            width: 40%;
+            gap: 1.5rem;
+            font-size: .92rem;
+            font-weight: 500;
+            justify-content: flex-start;
+            @media(max-width: 768px){
+                display: none;
+            }
+            // background-color: rebeccapurple;
+        }
+        .nav-contact{
+            gap: .9rem;
+            font-family: $font-fam-robot;
+            font-weight: 400;
+            font-style: normal;
+            width: 40%;
+            font-size: 1.4rem;
+            // background-color: green;
+            justify-content: flex-start;
+            @media(max-width: 768px){
+                display: none;
+            }
+            button{
+                padding: 1.1rem 2rem;
+                border-bottom-right-radius: 30px;
+                border-top-right-radius: 30px;
+                border-bottom-left-radius: 30px;
+                background-color: $or-color-orange;
+                border: none;
+                color: white;
+                font-size: .8rem;
+                font-weight: 700;
+                // padding: .3rem .3rem;
+                i{
+                    color: white;
+                }
+            }
+        }
+    }
+}

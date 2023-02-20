@@ -1,0 +1,62 @@
+$or-color-orange:rgb(254,158,13);
+$font-fam-robot:'Roboto', sans-serif;
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+i{
+    color: black;
+}
+.bxs-phone-call{
+    color: $or-color-orange;
+}
+.btn-shape{
+    padding: 1.1rem 2rem;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: $or-color-orange;
+    border: none;
+    color: white;
+    font-size: .8rem;
+    font-weight: 700;
+    // padding: .3rem .3rem;
+    i{
+        color: white;
+    }
+}
+.img-shape{
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.card-shape{
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 20px;
+}
+h1{
+    font-size: 5rem;
+    line-height: 70px;
+    letter-spacing: .1rem;
+}
+.border-padding{
+    padding: 1rem 2rem;
+}

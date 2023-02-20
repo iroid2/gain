@@ -1,0 +1,64 @@
+.program{
+    width: 100%;
+    .top-program{
+        width: 100%;
+        text-align: center;
+        h1{
+            font-weight: 400;
+            font-size: 3rem;
+        }
+        p{
+            flex-wrap: wrap;
+        }
+    }
+    .bottm-program{
+        width: 100%;
+        display: grid;
+        grid-gap:1.3rem;
+        padding: .3rem 3rem;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+        @media(max-width: 768px){
+            padding: .3rem .2rem;
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        }
+        .programs-card{
+            padding-bottom: 2rem;
+            // background-color: rebeccapurple;
+            overflow: hidden;
+            text-align: center;
+            flex-wrap: wrap;
+            &:hover{
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 22px;
+            }
+            img{
+                width: 100%;
+                height:200px;
+            };
+            .text-sectn{
+                text-align: center;
+                padding: .6rem 4.5rem;
+                @media(max-width: 768px){
+                    padding: .6rem .2rem;
+                }
+                h1{
+                    width:200px;
+                    flex-wrap: wrap;
+                    text-align: center;
+                    margin-top: .8rem;
+                }
+                p{
+                    // width:200px;
+                    margin-top: .8rem;
+                    flex-wrap: wrap;
+                }
+                button{
+                    margin-top: 2rem;
+                    color: white;
+                    background-color: black;
+                }
+            }
+           
+        }
+    }
+}
