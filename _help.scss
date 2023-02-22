@@ -1,0 +1,77 @@
+.help{
+    width: 100%;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+    background-color: #F7F8F9;
+    @media(max-width: 768px){
+        flex-direction: column;
+        padding: 1rem .5rem;
+    }
+    .left-help{
+        width: 50%;
+        gap: 2rem;
+        flex-direction: column;
+        @media(max-width: 768px){
+            width: 99%;
+        }
+        h1{
+            text-align: start;
+            width: 80%;
+            font-weight: bold;
+            @media(max-width: 768px){
+                font-size: 1.3rem;
+            }
+        }
+        button{
+            background-color: black;
+        }
+        .white-sectn{
+            padding: 1rem 1rem;
+            background-color: white;
+            @media(max-width: 768px){
+                padding: .3rem .2rem;
+            }
+           
+            .help-serv{
+                padding: .3rem 3rem;
+                width: 100%;
+                // background-color: red;
+                border-bottom: 2px solid gray;
+                @media(max-width: 768px){
+                    padding: .3rem 1rem;  
+                }
+                .serv-1{
+                    i{
+                        font-size: 2rem;
+                        color: gray;
+                        &:hover{
+                            color: orange;
+                        }
+                    }
+                    p{
+                        text-align: center;
+                        margin-top: .2rem;
+                        color: gray;
+                        // font-size: 1.4rem;
+                        &:hover{
+                            color: orange;
+                        }
+                    }
+                    flex-direction: column;
+                }
+                
+            }
+        }
+        }
+        
+    .right-help{
+        width: 50%;
+        @media(max-width: 768px){
+            width: 100%;
+        }
+        img{
+            width: 100%;
+        }
+    //    background-color: red;
+    }
+}

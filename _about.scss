@@ -7,13 +7,16 @@
     }
     p{
         margin-top: 2rem;
+        width: 80%;
+        margin-left: 6rem;
+        text-align: center;
+        @media(max-width: 768px){
+            margin-left: 1rem;
+        }
     }
     .about-btns{
         gap: 2rem;
         margin-top: 1rem;
-        // @media(max-width: 768px){
-        //     gap: 1rem;
-        // }
         button{
             background-color: black;
             &:hover{

@@ -70,6 +70,13 @@ h1 {
   line-height: 70px;
   letter-spacing: 0.1rem;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 60px;
+    letter-spacing: 0rem;
+  }
+}
 
 .border-padding {
   padding: 1rem 2rem;
@@ -80,18 +87,83 @@ h1 {
   text-align: center;
   margin-top: 0.8rem;
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 50px;
+  font-style: normal;
+  font-family: "Libre Baskerville", serif;
+}
+@media (max-width: 768px) {
+  .title-h1 {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 30px;
+  }
 }
 
 .or-title {
   color: rgb(254, 158, 13);
 }
 
+.or-circle {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+@media (max-width: 768px) {
+  .or-circle {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+.red-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #F1592A;
+  border-radius: 50%;
+  position: absolute;
+  top: 70%;
+  right: 2%;
+}
+@media (max-width: 768px) {
+  .red-circle {
+    width: 17px;
+    height: 17px;
+    top: 40%;
+  }
+}
+
+.gr-circle {
+  background-color: #8DC63F;
+  width: 15px;
+  height: 15px;
+  top: 65%;
+  left: 40%;
+}
+@media (max-width: 768px) {
+  .gr-circle {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.pad-top {
+  margin-top: 1.5rem;
+}
+
+.pad-btm {
+  margin-bottom: 1.5rem;
+}
+
 .hero {
-  background: url(./assets/h1-bg01.png);
+  background-color: #F7F8FA 0.3;
   background-size: cover;
   width: 100%;
+  padding: 0.3rem 2rem;
 }
 @media (max-width: 768px) {
   .hero {
@@ -99,9 +171,9 @@ h1 {
   }
 }
 .hero .left-hero {
-  width: 50%;
+  width: 45%;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.4rem;
   padding-top: 5rem;
 }
 @media (max-width: 768px) {
@@ -116,7 +188,7 @@ h1 {
   }
 }
 .hero .left-hero h1 {
-  width: 80%;
+  width: 90%;
 }
 @media (max-width: 768px) {
   .hero .left-hero h1 {
@@ -139,7 +211,8 @@ h1 {
   }
 }
 .hero .right-hero {
-  width: 50%;
+  width: 55%;
+  padding: 0.2rem 1rem;
 }
 @media (max-width: 768px) {
   .hero .right-hero {
@@ -147,7 +220,7 @@ h1 {
   }
 }
 .hero .right-hero img {
-  width: 90%;
+  width: 100%;
 }
 
 .program {
@@ -228,6 +301,14 @@ h1 {
 }
 .about p {
   margin-top: 2rem;
+  width: 80%;
+  margin-left: 6rem;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .about p {
+    margin-left: 1rem;
+  }
 }
 .about .about-btns {
   gap: 2rem;
@@ -243,13 +324,146 @@ h1 {
   background-color: #096247;
 }
 
+.fundraise {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+@media (max-width: 768px) {
+  .fundraise {
+    flex-direction: column;
+    padding: 1rem 0.2rem;
+  }
+}
+.fundraise .left-fundraise {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .fundraise .left-fundraise {
+    width: 100%;
+  }
+}
+.fundraise .left-fundraise img {
+  width: 97%;
+}
+.fundraise .right-fundraise {
+  width: 50%;
+  padding: 0.4rem 4rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .fundraise .right-fundraise {
+    width: 100%;
+    padding: 0.4rem 0.3rem;
+  }
+}
+.fundraise .right-fundraise h1 {
+  text-align: start;
+  color: rgb(22, 22, 22);
+}
+.fundraise .right-fundraise p {
+  color: rgb(49, 49, 49);
+}
+.fundraise .right-fundraise a {
+  color: rgb(254, 158, 13);
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+.help {
+  width: 100%;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+  background-color: #F7F8F9;
+}
+@media (max-width: 768px) {
+  .help {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+}
+.help .left-help {
+  width: 50%;
+  gap: 2rem;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .help .left-help {
+    width: 99%;
+  }
+}
+.help .left-help h1 {
+  text-align: start;
+  width: 80%;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .help .left-help h1 {
+    font-size: 1.3rem;
+  }
+}
+.help .left-help button {
+  background-color: black;
+}
+.help .left-help .white-sectn {
+  padding: 1rem 1rem;
+  background-color: white;
+}
+@media (max-width: 768px) {
+  .help .left-help .white-sectn {
+    padding: 0.3rem 0.2rem;
+  }
+}
+.help .left-help .white-sectn .help-serv {
+  padding: 0.3rem 3rem;
+  width: 100%;
+  border-bottom: 2px solid gray;
+}
+@media (max-width: 768px) {
+  .help .left-help .white-sectn .help-serv {
+    padding: 0.3rem 1rem;
+  }
+}
+.help .left-help .white-sectn .help-serv .serv-1 {
+  flex-direction: column;
+}
+.help .left-help .white-sectn .help-serv .serv-1 i {
+  font-size: 2rem;
+  color: gray;
+}
+.help .left-help .white-sectn .help-serv .serv-1 i:hover {
+  color: orange;
+}
+.help .left-help .white-sectn .help-serv .serv-1 p {
+  text-align: center;
+  margin-top: 0.2rem;
+  color: gray;
+}
+.help .left-help .white-sectn .help-serv .serv-1 p:hover {
+  color: orange;
+}
+.help .right-help {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .help .right-help {
+    width: 100%;
+  }
+}
+.help .right-help img {
+  width: 100%;
+}
+
 body {
   width: 100vw;
+  background: url(./assets/h1-bg01.png);
+  background-size: contain;
   font-family: "Roboto", sans-serif;
 }
 body .nav-bar {
   width: 100%;
   padding: 1.3rem 2rem;
+  gap: 2rem;
 }
 @media (max-width: 768px) {
   body .nav-bar {
@@ -268,11 +482,11 @@ body .nav-bar .logo {
   }
 }
 body .nav-bar .logo img {
-  width: 66%;
+  width: 73%;
 }
 @media (max-width: 768px) {
   body .nav-bar .logo img {
-    width: 40%;
+    width: 30%;
   }
 }
 body .nav-bar .logo i {

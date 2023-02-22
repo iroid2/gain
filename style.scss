@@ -7,17 +7,21 @@
 @import"./hero";
 @import"./program";
 @import"./about";
+@import"./fundraise";
+@import"./help";
 body{
     width: 100vw;
+    background: url(./assets/h1-bg01.png);
+    background-size: contain;
     font-family:$font-fam-robot ;
     .nav-bar{
         width: 100%;
         padding: 1.3rem 2rem;
+        gap: 2rem;
         @media(max-width: 768px){
             padding: 1rem .1rem;
             width: 100%;
         }
-        // background-color: red;
         .logo{
             width: 20%;
             @media(max-width: 768px){
@@ -26,9 +30,9 @@ body{
                 justify-content: space-between;
             }
             img{
-                width: 66%;
+                width: 73%;
                 @media(max-width: 768px){
-                    width: 40%;
+                    width: 30%;
                 }
             }
             i{
@@ -50,7 +54,6 @@ body{
             @media(max-width: 768px){
                 display: none;
             }
-            // background-color: rebeccapurple;
         }
         .nav-contact{
             gap: .9rem;
@@ -59,7 +62,6 @@ body{
             font-style: normal;
             width: 40%;
             font-size: 1.4rem;
-            // background-color: green;
             justify-content: flex-start;
             @media(max-width: 768px){
                 display: none;

@@ -56,6 +56,11 @@ h1{
     font-size: 5rem;
     line-height: 70px;
     letter-spacing: .1rem;
+    @media(max-width: 768px){
+        font-size: 4rem;
+        line-height: 60px;
+        letter-spacing: 0rem;
+    }
 }
 .border-padding{
     padding: 1rem 2rem;
@@ -65,9 +70,60 @@ h1{
     text-align: center;
     margin-top: .8rem;
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 50px;
+    font-style: normal;
+    font-family: 'Libre Baskerville', serif;
+    @media(max-width: 768px){
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 30px;
+    }
 }
 .or-title{
     color: $or-color-orange;
+}
+.or-circle{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    @media(max-width: 768px){
+        width: 17px;
+        height: 17px;
+    }
+}
+.red-circle{
+    width: 30px;
+    height: 30px;
+    background-color: #F1592A;
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    right: 2%;
+    @media(max-width: 768px){
+        width: 17px;
+        height: 17px;
+        top: 40%;
+    }
+}
+.gr-circle{
+    background-color: #8DC63F;
+    width: 15px;
+    height: 15px;
+    top: 65%;
+    left: 40%;
+    @media(max-width: 768px){
+        width: 10px;
+        height: 10px;
+    }
+}
+.pad-top{
+    margin-top: 1.5rem;
+}
+.pad-btm{
+    margin-bottom: 1.5rem;
 }
