@@ -1,0 +1,125 @@
+.help-campaign{
+    width: 100%;
+    padding: 4rem;
+    @media(max-width: 768px){
+        padding: 2rem;
+    }
+    .top-capaign{
+        width: 100%;
+        text-align: center;
+        p{
+            margin-top: 1rem;
+        }
+        h1{
+            margin-bottom: .6rem;
+        }
+    }
+    .botm-capaign{
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        .owl-carousel {
+            // background-color: red;
+            .item {
+                height: 37rem;
+                width: 97%;
+                overflow: hidden;
+                border: .3px solid rgb(235, 233, 233);
+                .programs-card{
+                    width: 100%;
+                    align-items: center;
+                    position: relative;
+                    img{
+                        height: 40%;
+                    }
+                    .sucess-vid{
+                        width: 100%;
+                        position: absolute;
+                        margin-top: 1rem;
+                        padding: .2rem 1rem;
+                        p{
+                            padding: .2rem .5rem;
+                            font-weight: bold;
+                            font-size: .8rem;
+                            background-color: white;
+                            border-radius: 33%;
+                            width: 28%;
+                        }
+                        .green-text{
+                            background-color: #0E926B;
+                            color: white;
+                        }
+                        .vid{
+                            width: 5%;
+                            padding: .01rem 1rem;
+                            font-size: 1.2rem;
+                            background-color: black;
+                            align-items: center;
+                            border-radius: 5px;
+                            &:hover{
+                                background-color: orange;
+                            }
+                            i{
+                                color: white;
+
+                            }
+                        }
+                    }
+                    .rating{
+                        padding: .7rem .7rem;
+                        width: 100%;
+                        flex-wrap: nowrap;
+                        border-bottom: 1px solid rgb(214, 213, 213);
+                        p{
+                            margin: 0;
+                            color: rgb(34, 34, 34);
+                        }
+                        .current{
+                            .amt{
+                                font-weight: bold;
+                                color: black;
+                            }
+                        }
+                        .percentage{
+                            font-size: 2.4rem;
+                        }
+                        .target{
+                            .amt{
+                                font-weight: bold;
+                                color: black;
+                            }
+                        }
+                    }
+                    h3{
+                        font-size: 1.2rem;
+                        color: black;
+                        text-align: center;
+                    }
+                    p{
+                        text-align: center;
+                        padding: .2rem 2rem;
+                        margin: 0;
+                    }
+                }
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
+               .card-footer{
+                width: 100%;
+                padding-right: .1rem;
+                button{
+                    width: 20%;
+                    border-top-left-radius: 30%;
+                    border-bottom-left-radius: 30%;
+                    background-color: #DB8400;
+                    i{
+                        color: white;
+                        font-size: 1.3rem;
+                    }
+                }
+               }
+            }
+        }
+    }
+    
+}

@@ -405,6 +405,9 @@ h1 {
 .help .left-help button {
   background-color: black;
 }
+.help .left-help button:hover {
+  background-color: orange;
+}
 .help .left-help .white-sectn {
   padding: 1rem 1rem;
   background-color: white;
@@ -454,15 +457,239 @@ h1 {
   width: 100%;
 }
 
-body {
-  width: 100vw;
-  background: url(./assets/h1-bg01.png);
+.help-campaign {
+  width: 100%;
+  padding: 4rem;
+}
+@media (max-width: 768px) {
+  .help-campaign {
+    padding: 2rem;
+  }
+}
+.help-campaign .top-capaign {
+  width: 100%;
+  text-align: center;
+}
+.help-campaign .top-capaign p {
+  margin-top: 1rem;
+}
+.help-campaign .top-capaign h1 {
+  margin-bottom: 0.6rem;
+}
+.help-campaign .botm-capaign {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.help-campaign .botm-capaign .owl-carousel .item {
+  height: 37rem;
+  width: 97%;
+  overflow: hidden;
+  border: 0.3px solid rgb(235, 233, 233);
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card {
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card img {
+  height: 40%;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .sucess-vid {
+  width: 100%;
+  position: absolute;
+  margin-top: 1rem;
+  padding: 0.2rem 1rem;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .sucess-vid p {
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background-color: white;
+  border-radius: 33%;
+  width: 28%;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .sucess-vid .green-text {
+  background-color: #0E926B;
+  color: white;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .sucess-vid .vid {
+  width: 5%;
+  padding: 0.01rem 1rem;
+  font-size: 1.2rem;
+  background-color: black;
+  align-items: center;
+  border-radius: 5px;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .sucess-vid .vid:hover {
+  background-color: orange;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .sucess-vid .vid i {
+  color: white;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .rating {
+  padding: 0.7rem 0.7rem;
+  width: 100%;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid rgb(214, 213, 213);
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .rating p {
+  margin: 0;
+  color: rgb(34, 34, 34);
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .rating .current .amt {
+  font-weight: bold;
+  color: black;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .rating .percentage {
+  font-size: 2.4rem;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card .rating .target .amt {
+  font-weight: bold;
+  color: black;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card h3 {
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+}
+.help-campaign .botm-capaign .owl-carousel .item .programs-card p {
+  text-align: center;
+  padding: 0.2rem 2rem;
+  margin: 0;
+}
+.help-campaign .botm-capaign .owl-carousel .item:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.help-campaign .botm-capaign .owl-carousel .item .card-footer {
+  width: 100%;
+  padding-right: 0.1rem;
+}
+.help-campaign .botm-capaign .owl-carousel .item .card-footer button {
+  width: 20%;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+  background-color: #DB8400;
+}
+.help-campaign .botm-capaign .owl-carousel .item .card-footer button i {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.volunteer {
+  width: 100%;
+}
+.volunteer .top-volunteer {
+  background: url(./assets/h1-map1.png);
   background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5rem 1rem;
+}
+.volunteer .top-volunteer .top-volun-cards {
+  padding: 0.4rem;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .volunteer .top-volunteer .top-volun-cards {
+    flex-direction: column;
+  }
+}
+.volunteer .top-volunteer .top-volun-cards .volun-card {
+  background-color: white;
+  gap: 1rem;
+  padding: 0.8rem 1.5rem;
+  width: 23%;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  box-shadow: rgba(83, 83, 83, 0.24) 0px 3px 8px;
+}
+@media (max-width: 768px) {
+  .volunteer .top-volunteer .top-volun-cards .volun-card {
+    width: 90%;
+    padding: 0.8rem 0.2rem;
+  }
+}
+.volunteer .top-volunteer .top-volun-cards .volun-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 5px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.volunteer .top-volunteer .top-volun-cards .volun-card .leftCard {
+  font-size: 4rem;
+}
+.volunteer .top-volunteer .top-volun-cards .volun-card .rightCard {
+  flex-direction: column;
+}
+.volunteer .top-volunteer .top-volun-cards .volun-card .rightCard .numb {
+  font-size: 2.1rem;
+  font-style: normal;
+}
+.volunteer .top-volunteer .top-volun-cards .volun-card .rightCard p {
+  margin: 0;
+}
+.volunteer .botm-volunteer {
+  width: 100%;
+  position: relative;
+  padding: 0.4rem 1rem;
+  height: 80vh;
+}
+@media (max-width: 768px) {
+  .volunteer .botm-volunteer {
+    padding: 0.4rem 0.3rem;
+    height: 100vh;
+  }
+}
+.volunteer .botm-volunteer img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .volunteer .botm-volunteer img {
+    height: 50%;
+  }
+}
+.volunteer .botm-volunteer .text-section {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  box-shadow: rgba(83, 83, 83, 0.24) 0px 3px 8px;
+  overflow: hidden;
+  width: 40%;
+  position: absolute;
+  right: 0;
+  top: 5rem;
+}
+@media (max-width: 768px) {
+  .volunteer .botm-volunteer .text-section {
+    width: 100%;
+    left: 0.5rem;
+    top: 2rem;
+  }
+}
+.volunteer .botm-volunteer .text-section h1 {
+  text-align: start;
+  color: white;
+  font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .volunteer .botm-volunteer .text-section h1 {
+    font-size: 1.6rem;
+  }
+}
+.volunteer .botm-volunteer .text-section p {
+  margin: 1rem;
+  color: white;
+}
+
+body {
+  background: url(./assets/h1-bg01.png);
+  background-size: cover;
+  background-repeat: repeat;
   font-family: "Roboto", sans-serif;
 }
 body .nav-bar {
   width: 100%;
-  padding: 1.3rem 2rem;
+  padding: 1.3rem 3rem;
   gap: 2rem;
 }
 @media (max-width: 768px) {
@@ -524,6 +751,10 @@ body .nav-bar .nav-contact {
   body .nav-bar .nav-contact {
     display: none;
   }
+}
+body .nav-bar .nav-contact p {
+  font-size: 1.3rem;
+  align-items: center;
 }
 body .nav-bar .nav-contact button {
   padding: 1.1rem 2rem;

@@ -24,6 +24,9 @@
         }
         button{
             background-color: black;
+            &:hover{
+                background-color: orange;
+            }
         }
         .white-sectn{
             padding: 1rem 1rem;

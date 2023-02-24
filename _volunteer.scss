@@ -1,0 +1,94 @@
+.volunteer{
+    width: 100%;
+    .top-volunteer{
+        background: url(./assets/h1-map1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 5rem 1rem;
+       
+        .top-volun-cards{
+            padding: .4rem ;
+            gap: 1rem;
+            margin-top: 2rem;
+            @media(max-width: 768px){
+                flex-direction: column;
+            }
+            .volun-card{
+                background-color: white;
+                gap: 1rem;
+                padding: .8rem 1.5rem;
+                width: 23%;
+                border-bottom-right-radius: 3px;
+                border-top-right-radius: 40px;
+                border-bottom-left-radius: 40px;
+                box-shadow: rgba(83, 83, 83, 0.24) 0px 3px 8px;
+                @media(max-width: 768px){
+                    width: 90%;
+                    padding: .8rem .2rem;
+                }
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.19) 5px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                }
+                .leftCard{
+                    font-size: 4rem;
+                }
+                .rightCard{
+                    flex-direction: column;
+                    .numb{
+                        font-size: 2.1rem;
+                        font-style: normal;
+                    }
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    .botm-volunteer{
+        width: 100%;
+        position: relative;
+        padding: .4rem 1rem;
+        height: 80vh;
+        @media(max-width: 768px){
+            padding: .4rem .3rem;
+            height: 100vh;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            @media(max-width: 768px){
+                height: 50%;
+            }
+        }
+        .text-section{
+            border-bottom-right-radius: 0px;
+            border-top-right-radius: 40px;
+            border-bottom-left-radius: 40px;
+            box-shadow: rgba(83, 83, 83, 0.24) 0px 3px 8px;
+            overflow: hidden;
+            width: 40%;
+            position: absolute;
+            right: 0;
+            top: 5rem;
+            @media(max-width: 768px){
+                width: 100%;
+                left: .5rem;
+                top: 2rem;
+            }
+            h1{
+                text-align: start;
+                color: white;
+                font-size: 2rem;
+                @media(max-width: 768px){
+                    font-size: 1.6rem;
+                }
+            }
+            p{
+                margin: 1rem;
+                color: white;
+            }
+        }
+    }
+}
